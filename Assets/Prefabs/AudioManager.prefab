@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &844133525629115903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 844133525629115873}
+  - component: {fileID: 844133525629115872}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Sounds
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &844133525629115873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844133525629115903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844133525629115872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844133525629115903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd45665edbf99ff4d99a14024a18bcee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EndTheme
+    clip: {fileID: 8300000, guid: 610f5cc4d9162764099066d6fb0da802, type: 3}
+    volume: 0.605
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: 26bb2f821f2499b4b878ff962bb9f182, type: 3}
+    volume: 0.302
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FireballHit
+    clip: {fileID: 8300000, guid: c13c27c9a3b3aab49877031d3575b788, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameTheme
+    clip: {fileID: 8300000, guid: 1605c1f22cf72ed4283f7180fe29acba, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MenuTheme
+    clip: {fileID: 8300000, guid: 1a93a899f5a27744abd3125545d30d52, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: HealPickUp
+    clip: {fileID: 8300000, guid: 834b96aec1d698a46b8fe043ea733cbd, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AmmoPickUp
+    clip: {fileID: 8300000, guid: 828111d610365424a86fcb884f096100, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: KeyPickUp
+    clip: {fileID: 8300000, guid: 7e2baa04853a2d9429d84051a5637240, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 8c50aa5e7c21b6545a2cb3a712592319, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 1f0e3732c598af840a53b0925a6341a3, type: 3}
+    volume: 0.215
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
